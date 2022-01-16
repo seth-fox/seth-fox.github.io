@@ -1,4 +1,7 @@
 .header {
+  float: right;
+  width: 80%;
+  height: 10%;
   padding-top: 5%;
   padding-right: 5%;
   padding-bottom: 5%;
@@ -8,6 +11,7 @@
 .column-left {
   float: left;
   width: 20%;
+  height: 100%;
   padding-top: 5%;
   padding-right: 5%;
   padding-bottom: 5%;
@@ -15,11 +19,12 @@
 }
 
 .column-right {
-  float: left;
+  float: right;
   width: 80%;
-  padding-top: 30%;
-  padding-right: 30%;
-  padding-bottom: 30%;
+  height: 90%;
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
   padding-left: 30%;
 }
 
