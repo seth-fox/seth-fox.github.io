@@ -1,7 +1,9 @@
 * {
-  color: #ffffff;
+  color: #33ff00;
   background-color: #000000;
-  margin: 0.2vw;
+  margin: 0.3vw;
+  padding: 0.2vw;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .box-left {
@@ -14,7 +16,7 @@
 .box-header {
   float: right;
   width: 80%;
-  padding-top: 3%;
+  padding-top: 4%;
   padding-bottom: 5%;
 }
 
