@@ -6,6 +6,11 @@
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
+a:link {color: #33ff00;}
+a:visited {color: #33ff00;}
+a:hover {color: #33ff00;}
+a:active {color: #33ff00;}
+
 .box-header {
   float: right;
   width: 81%;
