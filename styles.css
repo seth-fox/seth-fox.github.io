@@ -3,32 +3,32 @@
   background-color: "black";
 }
 
-.box1-left {
+.box-left {
   float: left;
   width: 10%;
   padding-left: 3%;
   padding-top: 9%;
 }
 
-.box2-header {
+.box-header {
   float: right;
   width: 80%;
   padding-top: 3%;
   padding-bottom: 5%;
 }
 
-.box3-subheader {
+.box-subheader {
   float: right;
   width: 80%;
   padding-bottom: 5%;
 }
 
-.box4-content {
+.box-content {
   float: right;
   width: 80%;
 }
 
-@media only creen and (max-width: 768px) {
-  [class*="box"]{
+@media only screen and (max-width: 768px) {
+  [class*="box-"]{
     width: 100%;
   }
