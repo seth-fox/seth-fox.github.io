@@ -37,9 +37,9 @@
 
 @media only screen and (max-width: 768px) {
   [class*="box-"]{
-    width: 90%;
-    padding-left: 5%;
-    padding-right: 5%;
+    width: 80%;
+    padding-left: 8%;
+    padding-right: 8%;
     padding-top: 3%;
     padding-bottom: 3%;
   }
