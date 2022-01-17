@@ -49,4 +49,8 @@
     position: relative;
     left: -80%
   }
+
+  p {
+    margin: 5%;
+  }
 }
