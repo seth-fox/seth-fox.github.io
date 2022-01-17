@@ -29,8 +29,9 @@
 }
 
 .box-content {
-  float: right;
-  width: 80%;
+  float: left;
+  width: 50%;
+  padding-left: 5%;
 }
 
 @media only screen and (max-width: 768px) {
