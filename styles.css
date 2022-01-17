@@ -13,7 +13,7 @@
   padding-bottom: 5%;
 }
 
-.box-left {
+.nav-bar {
   float: left;
   width: 10%;
   padding-left: 3%;
@@ -40,7 +40,7 @@
     padding-bottom: 3%;
   }
 
-  .box-left{
-    text-align: center;
+  .nav-bar{
+    width: 50%;
   }
 }
