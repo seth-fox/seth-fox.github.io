@@ -41,6 +41,9 @@
   }
 
   .nav-bar{
-    width: 50%;
+    width: 30%;
+    float: right;
+    position: relative;
+    left: -50%
   }
 }
