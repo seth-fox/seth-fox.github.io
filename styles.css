@@ -1,24 +1,34 @@
-.column-left {
+* {
+  color: "white";
+  background-color: "black";
+}
+
+.box1-left {
   float: left;
   width: 10%;
   padding-left: 3%;
   padding-top: 9%;
 }
 
-.header {
+.box2-header {
   float: right;
   width: 80%;
   padding-top: 3%;
   padding-bottom: 5%;
 }
 
-.subheader {
+.box3-subheader {
   float: right;
   width: 80%;
   padding-bottom: 5%;
 }
 
-.column-right {
+.box4-content {
   float: right;
   width: 80%;
 }
+
+@media only creen and (max-width: 768px) {
+  [class*="box"]{
+    width: 100%;
+  }
