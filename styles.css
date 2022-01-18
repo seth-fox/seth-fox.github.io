@@ -10,19 +10,6 @@ a:link, a:visited, a:hover, a:active {
   color: #33ff00;
 }
 
-table {
-  table-layout: fixed;
-  width: 60%;
-}
-
-thead th {
-  width: 40%;
-}
-
-th, td {
-  padding: 0.2vw;
-}
-
 .box-header {
   float: right;
   width: 81%;
@@ -68,6 +55,23 @@ th, td {
 
 .p-music{
   width: 85%;
+}
+
+table {
+  table-layout: fixed;
+  width: 60%;
+}
+
+thead th {
+  width: 40%;
+}
+
+th, td {
+  padding: 0.2vw;
+}
+
+.counter-frame {
+  color: #33ff00;
 }
 
 @media only screen and (max-width: 768px) {
