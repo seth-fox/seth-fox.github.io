@@ -86,4 +86,13 @@ th, td {
   .box-music-list {
     width: 94%;
   }
+
+  table {
+    table-layout: fixed;
+    width: 94%;
+  }
+
+  thead th {
+    width: 47%;
+  }
 }
