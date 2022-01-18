@@ -78,7 +78,7 @@ th, td {
   .nav-bar{
     float: right;
     position: relative;
-    left: -80%;
+    left: -70%;
   }
 
   p {
@@ -89,7 +89,7 @@ th, td {
     float: right;
     position: relative;
     left: -10%;
-    width: 70%;
+    width: 75%;
     top: 70%;
     transform: translateY(100%);
   }
