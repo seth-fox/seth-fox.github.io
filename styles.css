@@ -88,8 +88,10 @@ th, td {
   .box-homepage {
     float: right;
     position: relative;
-    left: -50%;
+    left: -30%;
     width: 70%;
+    top: 50%;
+    transform: translateY(50%);
   }
 
   .box-music-list {
