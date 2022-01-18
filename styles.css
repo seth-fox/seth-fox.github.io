@@ -40,8 +40,8 @@ a:active {color: #33ff00;}
   line-height: 1.5;
 }
 
-.container {
-  float: left;
+table {
+  table-layout: fixed;
   width: 50%;
 }
 
