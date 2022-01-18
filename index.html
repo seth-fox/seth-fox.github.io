@@ -55,5 +55,16 @@
     </p>
   </div>
 
+  <div class="box-homepage">
+    <script type="text/javascript">
+      var read = new XMLHttpRequest();
+      read.open('GET', 'counter.txt', false);
+      read.send();
+
+      var displayCounter = parseInt(read.responseText)
+      displayCounter;
+     </script>
+  </div>
+
 </body>
 </html>
