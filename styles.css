@@ -75,12 +75,20 @@ th, td {
     padding-bottom: 3%;
   }
 
+  .nav-bar{
+    float: right;
+    position: relative;
+    left: -75%;
+  }
+
   p {
     padding-top: 3%;
   }
 
   .box-homepage {
     width: 75%;
+    position: absolute;
+    bottom: 20%l
   }
 
   .box-music-list {
