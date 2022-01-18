@@ -52,6 +52,13 @@ th, td {
   line-height: 1.5;
 }
 
+.box-music-list {
+  float: left;
+  width: 80%;
+  padding-left: 5%;
+  line-height: 1.5;
+}
+
 @media only screen and (max-width: 768px) {
   [class*="box-"]{
     width: 94%;
