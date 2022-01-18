@@ -75,23 +75,12 @@ th, td {
     padding-bottom: 3%;
   }
 
-  .nav-bar{
-    float: right;
-    position: relative;
-    left: -70%;
-  }
-
   p {
     padding-top: 3%;
   }
 
   .box-homepage {
-    float: right;
-    position: relative;
-    left: -10%;
     width: 75%;
-    top: 70%;
-    transform: translateY(100%);
   }
 
   .box-music-list {
