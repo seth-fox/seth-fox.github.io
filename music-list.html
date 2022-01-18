@@ -11,8 +11,10 @@
   <meta property="og:type" content="website">
 
   <link rel="stylesheet" href="styles.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.css">
 
   <!---
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LucidaConsole:wght@300;400;500;700&display=swap">
   <meta property="og:url" content="seth-fox.com">
   <meta property="og:image" content="image.png">
   <link rel="icon" href="/favicon.ico">
@@ -53,6 +55,57 @@
     <p>
       back to <a href="lists.html">lists page</a>
     </p>
+    <div class="container">
+      <table class="table">
+        <thead id="table-head"></thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
   </div>
 </body>
 </html>
+
+<script src="https://apis.google.com/js/api.js"></script>
+<script type="text/javascript" src="js/easyData-google-sheets.js"></script>
+  <script>
+    {
+      {
+        const API_KEY = "AIzaSyA6DLqg2QZKLEsIiX9V86wKTMU3vt_4bkI";
+
+        function displayResult2(response) {
+          let tableHead = "";
+          let tableBody = "";
+
+          response.result.values.forEach((row, index) => {
+            if (index === 0) {
+              tableHead += "<tr>";
+              row.forEach((val) => (tableHead += "<th>" + val + "</th>"));
+              tableHead += "</tr>";
+            } else {
+              tableBody += "<tr>";
+              row.forEach((val) => (tableBody += "<td>" + val + "</td>"));
+              tableBody += "</tr>";
+            }
+          });
+
+          document.getElementById("table-head").innerHTML = tableHead;
+          document.getElementById("table-body").innerHTML = tableBody;
+        }
+
+        function loadData() {
+          // Spreadsheet ID
+          const spreadsheetId = "1fJmRSsipxQsATydQY9K19B2HY_iwxEb4rmM9MQ-huhY";
+          const range = "A:Z";
+          getPublicValues({ spreadsheetId, range }, displayResult2);
+        }
+
+        window.addEventListener("load", (e) => {
+          initOAuthClient({ apiKey: API_KEY });
+        });
+
+        document.addEventListener("gapi-loaded", (e) => {
+          loadData();
+        });
+      }
+    }
+  </script>
