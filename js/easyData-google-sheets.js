@@ -1,3 +1,5 @@
+// https://github.com/mdbootstrap/mdb-easydata
+
 // Google Sheets
 
 const GS_SCOPE = "https://www.googleapis.com/auth/spreadsheets.readonly";
