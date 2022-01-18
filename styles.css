@@ -17,19 +17,10 @@ table {
 
 thead th {
   width: 40%;
-  poaition: sticky;
 }
 
 th, td {
   padding: 0.2vw;
-}
-
-tr:nth-child(even) {
-  background: #ffffff;
-}
-
-tr:nth-child(odd) {
-  background: #000000;
 }
 
 .box-header {
