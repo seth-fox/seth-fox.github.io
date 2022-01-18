@@ -83,7 +83,6 @@ tr:nth-child(even) {
     float: right;
     position: relative;
     left: -75%;
-    top: 10%;
   }
 
   p {
