@@ -70,6 +70,14 @@ tr:nth-child(even) {
   line-height: 1.5;
 }
 
+.box-book {
+  float: left;
+  width: 50%;
+  padding-left: 5%;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
 @media only screen and (max-width: 768px) {
   [class*="box-"]{
     width: 94%;
