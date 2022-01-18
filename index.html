@@ -59,13 +59,10 @@
     </p>
   </div>
 
-  <input type="file" onchange="loadFile(this.files[0])">
-  <pre id="output"></pre>
-  <script>
-    async function loadFile(file) {
-      let text = await file.text();
-      document.getElementById('output').textContent = text;
-    }
+  <script type="text/javascript">
+    var counter = new XMLHttpRequest();
+    counter.open('GET', 'counter.txt', false);
+    counter.send();
   </script>
 
 </body>
