@@ -63,6 +63,13 @@ tr:nth-child(even) {
   line-height: 1.5;
 }
 
+.box-music-content {
+  float: left;
+  width: 40%;
+  padding-left: 5%;
+  line-height: 1.5;
+}
+
 .box-music-list {
   float: left;
   width: 80%;
