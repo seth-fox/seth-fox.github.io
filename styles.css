@@ -25,7 +25,7 @@ th, td {
 }
 
 tr:nth-child(even) {
-  background: #404040;
+  background: #ffffff;
 }
 
 tr:nth-child(odd) {
