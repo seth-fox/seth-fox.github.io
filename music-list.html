@@ -10,10 +10,10 @@
   <meta property="og:type" content="website">
 
   <link rel="stylesheet" href="styles.css" type="text/css">
+  <link rel="stylesheet" href="sort-table.css">
+  <script src="sort-table.js"></script>
 
   <!---
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LucidaConsole:wght@300;400;500;700&display=swap">
   <meta property="og:url" content="seth-fox.com">
   <meta property="og:image" content="image.png">
   <link rel="icon" href="/favicon.ico">
@@ -54,9 +54,9 @@
     <p>
       back to <a href="lists.html">lists page</a>
     </p>
-      <table class="searchable sortable pagination">
-        <thead id="table-head"></thead>
-        <tbody id="table-body"></tbody>
+      <table class="js-sort-table">
+        <thead id="table-head" class="js-sort-string"></thead>
+        <tbody id="table-body" class="js-sort-string"></tbody>
       </table>
   </div>
 </body>
@@ -66,7 +66,6 @@
 <!--- 
   https://github.com/mdbootstrap/mdb-easydata
 --->
-<script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
 <script src="https://apis.google.com/js/api.js"></script>
 <script type="text/javascript" src="js/easyData-google-sheets.js"></script>
   <script>
