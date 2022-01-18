@@ -86,6 +86,9 @@ th, td {
   }
 
   .box-homepage {
+    float: right;
+    position: relative;
+    left: -80%;
     width: 70%;
   }
 
