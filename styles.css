@@ -45,6 +45,10 @@ table {
   width: 50%;
 }
 
+thead th {
+  width: 50%;
+}
+
 @media only screen and (max-width: 768px) {
   [class*="box-"]{
     width: 94%;
