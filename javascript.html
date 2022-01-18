@@ -1,0 +1,15 @@
+<script>
+  google.script.run.withSuccessHandler(showData).getData();
+ 
+  function showData(dataArray){
+    $(document).ready(function(){
+      $('#data-table').DataTable({
+        data: dataArray,
+        columns: [
+          {"title":"Album Title"},
+          {"title":"Artist Name"},
+        ]
+      });
+    });
+  }
+</script>
