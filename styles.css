@@ -17,6 +17,7 @@ table {
 
 thead th {
   width: 40%;
+  poaition: sticky;
 }
 
 th, td {
