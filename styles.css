@@ -75,6 +75,10 @@ tr:nth-child(odd) {
   line-height: 1.5;
 }
 
+.p-music {
+  width: 50%;
+}
+
 @media only screen and (max-width: 768px) {
   [class*="box-"]{
     width: 94%;
