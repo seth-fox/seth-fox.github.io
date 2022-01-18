@@ -49,6 +49,10 @@ thead th {
   width: 50%;
 }
 
+th, td {
+  padding: 0.2vw;
+}
+
 @media only screen and (max-width: 768px) {
   [class*="box-"]{
     width: 94%;
