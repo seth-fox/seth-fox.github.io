@@ -1,5 +1,5 @@
 function doGet() {
-  return HtmlService.createTemplateFromFile('music-list.html').evaluate();
+  return HtmlService.createTemplateFromFile('music-list').evaluate();
 }
 
 function getData(){
