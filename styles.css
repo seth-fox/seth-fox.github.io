@@ -88,9 +88,9 @@ th, td {
   .box-homepage {
     float: right;
     position: relative;
-    left: 0%;
+    left: -10%;
     width: 70%;
-    top: 50%;
+    top: 70%;
     transform: translateY(100%);
   }
 
