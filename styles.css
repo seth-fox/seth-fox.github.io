@@ -52,6 +52,13 @@ th, td {
   line-height: 1.5;
 }
 
+.box-homepage {
+  float: left;
+  width: 50%;
+  padding-left: 5%;
+  line-height: 1.5;
+}
+
 .box-music-list {
   float: left;
   width: 80%;
@@ -76,5 +83,9 @@ th, td {
 
   p {
     padding-top: 3%;
+  }
+
+  .box-homepage {
+    width: 50%;
   }
 }
