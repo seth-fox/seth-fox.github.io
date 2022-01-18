@@ -23,6 +23,10 @@ th, td {
   padding: 0.2vw;
 }
 
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
 .box-header {
   float: right;
   width: 81%;
