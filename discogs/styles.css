@@ -14,7 +14,6 @@ a:link, a:visited, a:hover, a:active {
   float: right;
   width: 81%;
   padding-top: 4%;
-  padding-bottom: 3%;
 }
 
 .nav-bar {
@@ -29,7 +28,6 @@ a:link, a:visited, a:hover, a:active {
   width: 48%;
   line-height: 2;
   padding-left: 5%;
-  padding-bottom: 3%;
 }
 
 .box-content {
@@ -51,6 +49,16 @@ a:link, a:visited, a:hover, a:active {
   width: 80%;
   padding-left: 5%;
   line-height: 1.5;
+}
+
+.box-image img {
+  float: right;
+  height: 40%;
+  width: 40%;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
 }
 
 .p-music{
