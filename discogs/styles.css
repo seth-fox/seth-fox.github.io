@@ -1,0 +1,114 @@
+* {
+  color: #33ff00;
+  background-color: #000000;
+  margin: 0.2vw;
+  padding: 0.2vw;
+  font-family: "Fira Mono", "Lucida Console", "Courier New", monospace;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #33ff00;
+}
+
+.box-header {
+  float: right;
+  width: 81%;
+  padding-top: 4%;
+  padding-bottom: 3%;
+}
+
+.nav-bar {
+  float: left;
+  width: 10%;
+  padding-left: 3%;
+  padding-top: 8%;
+}
+
+.box-subheader {
+  float: left;
+  width: 48%;
+  line-height: 2;
+  padding-left: 5%;
+  padding-bottom: 3%;
+}
+
+.box-content {
+  float: left;
+  width: 50%;
+  padding-left: 5%;
+  line-height: 1.5;
+}
+
+.box-homepage {
+  float: left;
+  width: 50%;
+  padding-left: 5%;
+  line-height: 1.5;
+}
+
+.box-music-list {
+  float: left;
+  width: 80%;
+  padding-left: 5%;
+  line-height: 1.5;
+}
+
+.p-music{
+  width: 85%;
+}
+
+table {
+  table-layout: fixed;
+  width: 60%;
+}
+
+thead th {
+  width: 40%;
+}
+
+th, td {
+  padding: 0.2vw;
+}
+
+.counter-frame {
+  color: #33ff00;
+}
+
+@media only screen and (max-width: 768px) {
+  [class*="box-"]{
+    width: 94%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .nav-bar{
+    float: right;
+    position: relative;
+    left: -75%;
+  }
+
+  p {
+    padding-top: 3%;
+  }
+
+  .box-homepage {
+    width: 75%;
+    position: absolute;
+    bottom: 10%;
+  }
+
+  .box-music-list {
+    width: 94%;
+  }
+
+  table {
+    table-layout: fixed;
+    width: 94%;
+  }
+
+  thead th {
+    width: 47%;
+  }
+}
