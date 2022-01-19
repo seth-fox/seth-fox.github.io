@@ -37,20 +37,6 @@ a:link, a:visited, a:hover, a:active {
   line-height: 1.5;
 }
 
-.box-homepage {
-  float: left;
-  width: 50%;
-  padding-left: 5%;
-  line-height: 1.5;
-}
-
-.box-music-list {
-  float: left;
-  width: 80%;
-  padding-left: 5%;
-  line-height: 1.5;
-}
-
 .box-image img {
   float: right;
   height: 40%;
@@ -61,29 +47,8 @@ a:link, a:visited, a:hover, a:active {
   padding-left: 5%;
 }
 
-.p-music{
-  width: 85%;
-}
-
 h2 {
   padding-top: 5%;
-}
-
-table {
-  table-layout: fixed;
-  width: 60%;
-}
-
-thead th {
-  width: 40%;
-}
-
-th, td {
-  padding: 0.2vw;
-}
-
-.counter-frame {
-  color: #33ff00;
 }
 
 @media only screen and (max-width: 768px) {
@@ -103,24 +68,5 @@ th, td {
 
   p {
     padding-top: 3%;
-  }
-
-  .box-homepage {
-    width: 75%;
-    position: absolute;
-    bottom: 10%;
-  }
-
-  .box-music-list {
-    width: 94%;
-  }
-
-  table {
-    table-layout: fixed;
-    width: 94%;
-  }
-
-  thead th {
-    width: 47%;
   }
 }
