@@ -65,6 +65,10 @@ a:link, a:visited, a:hover, a:active {
   width: 85%;
 }
 
+h2 {
+  padding-top: 5%;
+}
+
 table {
   table-layout: fixed;
   width: 60%;
