@@ -6,6 +6,10 @@
   font-family: "Fira Mono", "Lucida Console", "Courier New", monospace;
 }
 
+html {
+  width: 100vw;
+}
+
 a:link, a:visited, a:hover, a:active {
   color: #ffffff;
 }
