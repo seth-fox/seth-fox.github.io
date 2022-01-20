@@ -1,5 +1,5 @@
 * {
-  color: #ffa000;
+  color: #ffaa00;
   background-color: #000000;
   margin: 0.2vw;
   padding: 0.2vw;
@@ -11,7 +11,7 @@ html {
 }
 
 a:link, a:visited, a:hover, a:active {
-  color: #ffa000;
+  color: #ffaa00;
 }
 
 .box-header {
