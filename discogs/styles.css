@@ -47,10 +47,6 @@ a:link, a:visited, a:hover, a:active {
   padding-left: 5%;
 }
 
-h2 {
-  padding-top: 5%;
-}
-
 @media only screen and (max-width: 768px) {
   [class*="box-"]{
     width: 94%;
