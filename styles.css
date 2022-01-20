@@ -7,7 +7,7 @@
 }
 
 html {
-  overflow-y: scroll;
+  width: 98vw;
 }
 
 a:link, a:visited, a:hover, a:active {
