@@ -83,14 +83,19 @@ thead th {
     width: auto;
   }
 
-  [class*="box-"]{
+  [class*="box-"] {
     width: 94%;
     padding-right: 3%;
     padding-left: 3%;
   }
 
-  .box-header{
+
+  h2 {
     text-align: center;
+  }
+
+  .box-spacer {
+    visibility: hidden;
   }
 
   .nav-bar {
