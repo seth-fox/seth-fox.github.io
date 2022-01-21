@@ -35,13 +35,6 @@ a:link, a:visited, a:hover, a:active {
   line-height: 1.5;
 }
 
-.box-homepage {
-  float: left;
-  width: 60%;
-  padding-left: 5%;
-  line-height: 1.5;
-}
-
 .box-music-list {
   float: left;
   width: 80%;
@@ -93,10 +86,6 @@ th, td {
 
   p {
     padding-top: 3%;
-  }
-
-  .box-homepage {
-    width: 75%;
   }
 
   .box-music-list {
