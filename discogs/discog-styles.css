@@ -66,12 +66,12 @@ a:link, a:visited, a:hover, a:active {
     padding-bottom: 3%;
   }
 
-  h1 {
+  .box-header {
     text-align: center;
-    padding-top: 3%;
+    padding-top: 5%;
   }
 
-  .nav-bar{
+  .nav-bar {
     float: right;
     position: relative;
     left: -75%;
