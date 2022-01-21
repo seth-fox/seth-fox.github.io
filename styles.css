@@ -11,7 +11,7 @@ html {
 }
 
 a:link, a:visited, a:hover, a:active {
-  color: #ffaa00;
+  color: #ffffff;
   padding: 0;
   margin: 0;
 }
@@ -19,9 +19,12 @@ a:link, a:visited, a:hover, a:active {
 .box-header {
   float: right;
   width: 80%;
+  text-decoration: none;
   padding-top: 4%;
+  padding-right: 0%;
   padding-bottom: 3%;
   padding-left: 5%;
+  margin: 0;
 }
 
 .nav-bar {
