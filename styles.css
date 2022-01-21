@@ -61,13 +61,13 @@ h2 {
 
 .box-music-list {
   float: left;
-  width: 70vw;
+  width: 60vw;
   line-height: 1.5;
 }
 
 table {
   table-layout: fixed;
-  width: 60%;
+  width: 80%;
 }
 
 thead th {
