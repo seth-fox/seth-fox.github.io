@@ -18,6 +18,7 @@ a:link, a:visited, a:hover, a:active {
   float: right;
   width: 81%;
   padding-top: 4%;
+  padding-bottom: 3%;
 }
 
 .nav-bar {
@@ -69,6 +70,7 @@ a:link, a:visited, a:hover, a:active {
     float: right;
     position: relative;
     left: -75%;
+    line-height: 2;
   }
 
   .box-image img {
