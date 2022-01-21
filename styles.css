@@ -95,7 +95,7 @@ thead th {
   }
 
   .box-spacer {
-    visibility: hidden;
+    display: none;
   }
 
   .nav-bar {
