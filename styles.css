@@ -12,34 +12,54 @@ html {
 
 a:link, a:visited, a:hover, a:active {
   color: #ffaa00;
+  padding: 0;
+  margin: 0;
 }
 
 .box-header {
   float: right;
-  width: 81%;
+  width: 80%;
   padding-top: 4%;
   padding-bottom: 3%;
+  padding-left: 5%;
 }
 
 .nav-bar {
   float: left;
   width: 10%;
-  padding-left: 3%;
   padding-top: 8%;
+  padding-left: 3%;
+}
+
+.box-subheader {
+  float: left;
+  width: 75%;
+  line-height: 2;
+  padding-left: 5%;
 }
 
 .box-content {
   float: left;
   width: 50%;
-  padding-left: 5%;
   line-height: 1.5;
+  padding-left: 5%;
 }
 
 .box-music-list {
   float: left;
   width: 80%;
-  padding-left: 5%;
   line-height: 1.5;
+  padding-left: 5%;
+}
+
+.box-image img {
+  float: right;
+  height: 40%;
+  width: 40%;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
 }
 
 table {
@@ -63,10 +83,10 @@ th, td {
 
   [class*="box-"]{
     width: 94%;
-    padding-left: 3%;
-    padding-right: 3%;
     padding-top: 3%;
+    padding-right: 3%;
     padding-bottom: 3%;
+    padding-left: 3%;
   }
 
   .box-header {
@@ -79,6 +99,15 @@ th, td {
     position: relative;
     left: -75%;
     line-height: 2;
+  }
+
+  .box-image img {
+    float: right;
+    height: 80%;
+    width: 80%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
   }
 
   p {
