@@ -36,7 +36,7 @@ a:link, a:visited, a:hover, a:active {
 
 .box-subheader {
   float: left;
-  width: 75%;
+  width: 50%;
   line-height: 2;
   padding-left: 5%;
 }
