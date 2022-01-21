@@ -80,6 +80,24 @@ thead th {
     padding-left: 3%;
   }
 
+  .box-header{
+    text-align: center;
+    order: 1;
+  }
+
+  .nav-bar {
+    line-height: 2;
+    order: 2;
+  }
+
+  .box-subheader {
+    order: 3;
+  }
+
+  .box-content {
+    order: 4;
+  }
+
   .box-image img {
     float: right;
     height: 80%;
