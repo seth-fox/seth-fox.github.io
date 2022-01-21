@@ -67,11 +67,11 @@ h2 {
 
 table {
   table-layout: fixed;
-  width: 80%;
+  width: 100%;
 }
 
 thead th {
-  width: 40%;
+  width: 45%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -113,12 +113,4 @@ thead th {
     padding-top: 3%;
   }
 
-  table {
-    table-layout: fixed;
-    width: 100%;
-  }
-
-  thead th {
-    width: 47%;
-  }
 }
