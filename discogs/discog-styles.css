@@ -56,7 +56,7 @@ a:link, a:visited, a:hover, a:active {
 
   html {
     width: auto;
-}
+  }
 
   [class*="box-"]{
     width: 94%;
@@ -64,6 +64,11 @@ a:link, a:visited, a:hover, a:active {
     padding-right: 3%;
     padding-top: 3%;
     padding-bottom: 3%;
+  }
+
+  h1 {
+    text-align: center;
+    padding-top: 3%;
   }
 
   .nav-bar{

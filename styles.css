@@ -59,10 +59,6 @@ th, td {
   padding: 0.2vw;
 }
 
-.counter-frame {
-  color: #33ff00;
-}
-
 @media only screen and (max-width: 768px) {
 
   html {
@@ -77,6 +73,11 @@ th, td {
     padding-bottom: 3%;
   }
 
+  h1 {
+    text-align: center;
+    padding-top: 3%;
+  }
+
   .nav-bar{
     float: right;
     position: relative;
@@ -88,13 +89,9 @@ th, td {
     padding-top: 3%;
   }
 
-  .box-music-list {
-    width: 94%;
-  }
-
   table {
     table-layout: fixed;
-    width: 94%;
+    width: 100%;
   }
 
   thead th {
