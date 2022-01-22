@@ -13,6 +13,7 @@
   <script src="js/csi.min.js"></script>
   <meta property="og:url" content="seth-fox.com">
   <meta property="og:image" content="discogs/cover-art/2022.png">
+  <script src="counter.php"></script>
 </head>
 
 <body>
@@ -44,6 +45,13 @@
       <li><a href="https://us.napster.com/artist/seth-fox" target="_blank">napster</a>
     </ul>
   </div>
+
+  <div class="box-spacer">
+  </div>
+
+  <?php
+    visitor_counter();
+  ?>
 
 </body>
 </html>
