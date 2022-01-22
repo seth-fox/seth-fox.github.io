@@ -1,15 +1,12 @@
-* {
-  color: #ffaa00;
-  background-color: #000000;
-  font-family: "Fira Mono", "Lucida Console", "Courier New", monospace;
-}
-
 a:link, a:visited, a:hover, a:active {
   color: #ffaa00;
 }
 
 html {
   width: 95vw;
+  color: #ffaa00;
+  background-color: #000000;
+  font-family: "Fira Mono", "Lucida Console", "Courier New", monospace;
 }
 
 .box-header {
@@ -78,11 +75,11 @@ thead th {
 }
 
 tbody tr:nth-child(even) {
-  background-color: #ffffff;
+  background-color: #333333;
 }
 
 tbody tr:nth-child(odd) {
-  background-color: #555555;
+  background-color: #000000;
 }
 
 
