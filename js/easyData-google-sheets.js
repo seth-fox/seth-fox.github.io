@@ -1,4 +1,5 @@
 // https://github.com/mdbootstrap/mdb-easydata
+// this repo has you use API key in plaintext. bad practice. it shouldn't matter for a free account with restrictions applied, but i am going to have to generate a new key to hide it for best practice's sake. 
 
 const GS_SCOPE = "https://www.googleapis.com/auth/spreadsheets.readonly";
 const GS_API_URL = "https://sheets.googleapis.com/$discovery/rest?version=v4";
