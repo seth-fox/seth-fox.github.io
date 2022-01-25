@@ -32,7 +32,7 @@
     }
 
     window.addEventListener("load", (e) => {
-      initOAuthClient({ apiKey: secrets.API_KEY });
+      initOAuthClient({ apiKey: API_KEY });
     });
 
     document.addEventListener("gapi-loaded", (e) => {
