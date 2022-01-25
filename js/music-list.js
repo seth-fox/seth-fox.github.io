@@ -1,5 +1,8 @@
 // https://github.com/mdbootstrap/mdb-easydata 
+<<<<<<< HEAD
 // api key included as repo secret
+=======
+>>>>>>> parent of 2c01bf1 (easydata api key warning)
 
 {
   {
