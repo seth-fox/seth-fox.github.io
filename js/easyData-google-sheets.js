@@ -1,4 +1,5 @@
 // https://github.com/mdbootstrap/mdb-easydata
+// api key is restricted to only allow intended requests, but this is bad practice
 
 const GS_SCOPE = "https://www.googleapis.com/auth/spreadsheets.readonly";
 const GS_API_URL = "https://sheets.googleapis.com/$discovery/rest?version=v4";

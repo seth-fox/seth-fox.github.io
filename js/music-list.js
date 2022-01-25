@@ -1,4 +1,5 @@
 // https://github.com/mdbootstrap/mdb-easydata 
+// api key is restricted to only allow intended requests, but this is bad practice
 
 {
   {
