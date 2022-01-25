@@ -1,11 +1,10 @@
 // https://github.com/mdbootstrap/mdb-easydata 
-<<<<<<< HEAD
-// api key included as repo secret
-=======
->>>>>>> parent of 2c01bf1 (easydata api key warning)
 
 {
   {
+
+    const API_KEY = "AIzaSyA6DLqg2QZKLEsIiX9V86wKTMU3vt_4bkI";
+
     function displayResult2(response) {
       let tableHead = "";
       let tableBody = "";

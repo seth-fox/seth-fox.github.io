@@ -1,8 +1,4 @@
 // https://github.com/mdbootstrap/mdb-easydata
-<<<<<<< HEAD
-// api key included as repo secret
-=======
->>>>>>> parent of 2c01bf1 (easydata api key warning)
 
 const GS_SCOPE = "https://www.googleapis.com/auth/spreadsheets.readonly";
 const GS_API_URL = "https://sheets.googleapis.com/$discovery/rest?version=v4";
