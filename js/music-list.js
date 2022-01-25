@@ -3,8 +3,6 @@
 
 {
   {
-    const API_KEY = "AIzaSyA6DLqg2QZKLEsIiX9V86wKTMU3vt_4bkI";
-
     function displayResult2(response) {
       let tableHead = "";
       let tableBody = "";
